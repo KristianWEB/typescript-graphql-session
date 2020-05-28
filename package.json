@@ -13,10 +13,12 @@
     "express-session": "^1.17.1",
     "graphql": "^15.0.0",
     "ioredis": "^4.17.1",
+    "nodemailer": "^6.4.8",
     "pg": "^8.2.1",
     "reflect-metadata": "^0.1.13",
     "type-graphql": "^1.0.0-rc.2",
-    "typeorm": "^0.2.25"
+    "typeorm": "^0.2.25",
+    "uuid": "^8.1.0"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.2",
@@ -27,11 +29,13 @@
     "@types/graphql": "^14.5.0",
     "@types/ioredis": "^4.16.2",
     "@types/node": "^14.0.5",
+    "@types/nodemailer": "^6.4.0",
+    "@types/uuid": "^8.0.0",
     "ts-node": "^8.10.1",
     "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.9.3"
   },
   "scripts": {
-    "start": "ts-node-dev --respawn src/index.ts"
+    "start": "ts-node-dev --no-notify --respawn src/index.ts"
   }
 }
